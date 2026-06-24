@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+data/*.csv
+nltk_data/
+*.png
+.pytest_cache/
+
+# Square 1: keep the bundled reference dataset tracked; never commit the zip artifact
+!dataset/
+!dataset/**
+dataset.zip
